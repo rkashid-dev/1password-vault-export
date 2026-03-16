@@ -1,0 +1,40 @@
+# ==============================================================================
+# .gitignore — 1Password Vault Export
+# ==============================================================================
+
+# ── Export output ──────────────────────────────────────────────────────────────
+# NEVER commit vault exports — they contain plaintext credentials
+1PExport_*/
+Attachments/
+export_log.txt
+*.csv
+
+# ── PowerShell ─────────────────────────────────────────────────────────────────
+# Local execution policy overrides
+*.ps1xml
+
+# ── Windows ────────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── macOS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editors ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Secrets / credentials ──────────────────────────────────────────────────────
+.env
+*.key
+*.pem
+*.pfx
+*.p12
