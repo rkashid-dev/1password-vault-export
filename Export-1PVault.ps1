@@ -78,7 +78,7 @@ $INCLUDE_ARCHIVE = $true
 
 # Output root — a timestamped subfolder is created here automatically
 # Update the username to match the machine you are running this on
-$OUTPUT_ROOT = "C:\Users\Carl.Engineer\Desktop"
+$OUTPUT_ROOT = "C:\Users\Rushikesh.Kashid\Desktop\1password"
 
 # ==============================================================================
 # DERIVED PATHS  —  do not edit
